@@ -56,8 +56,7 @@
  	left: 33vw; 
  	animation: cover1 linear 5s infinite;
  	color: lightgreen;
- 	text-align: center;
- 	text-shadow: 0 0 1vw rgba(100,255,100,0.5);
+ 	text-align: center; 
  } 
  .msg{
  	width: 100%;
