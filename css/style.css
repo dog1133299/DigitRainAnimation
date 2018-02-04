@@ -1,0 +1,133 @@
+ *{
+ 	margin: 0 auto;
+ 	padding: 0;
+ }
+@keyframes cover1{
+
+	0%{ top: -130%; } 
+	100%{top: 100%; } 
+}
+@keyframes cover2{
+
+	0%{ top: -140%; } 
+	100%{top: 120%; } 
+}
+@keyframes cover3{
+
+	0%{ top: -120%; } 
+	100%{top: 140%; } 
+}
+@keyframes cover4{
+
+	0%{ top: -140%; } 
+	100%{top: 130%; } 
+}
+@keyframes cover5{
+
+	0%{ top: -150%; } 
+	100%{top: 140%; } 
+}
+ body{ overflow: hidden;
+ background-color: black; }
+ .text{
+ 	width: 2vw;
+ 	height: 100%;
+ 	font-size: 3vw; 
+ 	display: inline-block;
+ 	color: lightgreen;
+ }
+ .digit{
+ 	width: 2vw;
+ 	font-size: 2vw;
+ 	height:100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0; 
+ 	animation: cover1 linear 4s infinite;
+ 	color: lightgreen;
+ 	text-align: center;
+ 	text-shadow: 0 0 1vw rgba(100,255,100,0.5); } 
+  .digitBig{
+ 	width: 3vw;
+ 	font-size: 3vw;
+ 	height:100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 33vw; 
+ 	animation: cover1 linear 5s infinite;
+ 	color: lightgreen;
+ 	text-align: center;
+ 	text-shadow: 0 0 1vw rgba(100,255,100,0.5);
+ } 
+ .msg{
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0;
+ 	color: white;
+ 	text-align: center;
+ 	font-family: 'Square721 BT','Montserrat', sans-serif;
+ 	font-size: 20px;
+ }
+ .msg>a{
+ 	text-decoration: none; 
+ }	
+ 	
+ .digit:nth-child(2)  { left: 2vw; animation: cover2 linear 4s infinite; }
+ .digit:nth-child(3)  { left: 4vw; animation: cover4 linear 6s infinite; }
+ .digit:nth-child(4)  { left: 6vw; animation: cover4 linear 4s infinite; }
+ .digit:nth-child(5)  { left: 8vw; animation: cover3 linear 2s infinite; }
+ .digit:nth-child(6)  { left: 10vw;animation: cover5 linear 4s infinite; }
+ .digit:nth-child(7)  { left: 12vw;animation: cover4 linear 3s infinite; }
+ .digit:nth-child(8)  { left: 14vw;animation: cover3 linear 3s infinite; }
+ .digit:nth-child(9)  { left: 16vw;animation: cover1 linear 5s infinite; }
+ .digit:nth-child(10) { left: 18vw;animation: cover2 linear 2s infinite; }
+ .digit:nth-child(11) { left: 20vw;animation: cover3 linear 6s infinite; }
+ .digit:nth-child(12) { left: 22vw;animation: cover2 linear 5s infinite; }
+ .digit:nth-child(13) { left: 24vw;animation: cover1 linear 3s infinite; }
+ .digit:nth-child(14) { left: 26vw;animation: cover4 linear 2s infinite; }
+ .digit:nth-child(15) { left: 28vw;animation: cover3 linear 3s infinite; }
+ .digit:nth-child(16) { left: 30vw;animation: cover2 linear 4s infinite; }
+ .digit:nth-child(17) { left: 32vw;animation: cover2 linear 6s infinite; }
+ .digit:nth-child(18) { left: 34vw;animation: cover3 linear 3s infinite; }
+ .digit:nth-child(19) { left: 36vw;animation: cover1 linear 5s infinite; }
+ .digit:nth-child(20) { left: 38vw;animation: cover5 linear 2s infinite; }
+ .digit:nth-child(21) { left: 40vw;animation: cover2 linear 4s infinite; }
+ .digit:nth-child(22) { left: 42vw;animation: cover3 linear 2s infinite; }
+ .digit:nth-child(23) { left: 44vw;animation: cover1 linear 3s infinite; }
+ .digit:nth-child(24) { left: 46vw;animation: cover4 linear 6s infinite; }
+ .digit:nth-child(25) { left: 48vw;animation: cover3 linear 2s infinite; }
+ .digit:nth-child(26) { left: 50vw;animation: cover5 linear 4s infinite; }
+ .digit:nth-child(27) { left: 52vw;animation: cover2 linear 5s infinite; }
+ .digit:nth-child(28) { left: 54vw;animation: cover5 linear 3s infinite; }
+ .digit:nth-child(29) { left: 56vw;animation: cover1 linear 2s infinite; }
+ .digit:nth-child(30) { left: 58vw;animation: cover2 linear 2s infinite; }
+ .digit:nth-child(31) { left: 60vw;animation: cover3 linear 4s infinite; }
+ .digit:nth-child(32) { left: 62vw;animation: cover3 linear 2s infinite; }
+ .digit:nth-child(33) { left: 64vw;animation: cover4 linear 3s infinite; }
+ .digit:nth-child(34) { left: 66vw;animation: cover1 linear 4s infinite; }
+ .digit:nth-child(35) { left: 68vw;animation: cover3 linear 2s infinite; }
+ .digit:nth-child(36) { left: 70vw;animation: cover1 linear 4s infinite; }
+ .digit:nth-child(37) { left: 72vw;animation: cover4 linear 2s infinite; }
+ .digit:nth-child(38) { left: 74vw;animation: cover3 linear 6s infinite; }
+ .digit:nth-child(39) { left: 76vw;animation: cover1 linear 5s infinite; }
+ .digit:nth-child(40) { left: 78vw;animation: cover5 linear 2s infinite; }
+ .digit:nth-child(41) { left: 80vw;animation: cover2 linear 4s infinite; }
+ .digit:nth-child(42) { left: 82vw;animation: cover2 linear 4s infinite; }
+ .digit:nth-child(43) { left: 84vw;animation: cover3 linear 6s infinite; }
+ .digit:nth-child(44) { left: 86vw;animation: cover4 linear 4s infinite; }
+ .digit:nth-child(45) { left: 88vw;animation: cover3 linear 3s infinite; }
+ .digit:nth-child(46) { left: 90vw;animation: cover1 linear 5s infinite; }
+ .digit:nth-child(47) { left: 92vw;animation: cover4 linear 4s infinite; }
+ .digit:nth-child(48) { left: 94vw;animation: cover2 linear 3s infinite; }
+ .digit:nth-child(49) { left: 96vw;animation: cover1 linear 6s infinite; }
+ .digit:nth-child(50) { left: 98vw;animation: cover2 linear 2s infinite; }
+
+ .digitBig:nth-child(2)  { left: 13vw; animation: cover2 linear 5s infinite; }
+ .digitBig:nth-child(3)  { left: 21vw; animation: cover3 linear 3s infinite; }
+ .digitBig:nth-child(4)  { left: 37vw; animation: cover4 linear 4s infinite; }
+ .digitBig:nth-child(5)  { left: 45vw; animation: cover2 linear 2s infinite; }
+ .digitBig:nth-child(6)  { left: 53vw; animation: cover5 linear 4s infinite; }
+ .digitBig:nth-child(7)  { left: 61vw; animation: cover4 linear 5s infinite; }
+ .digitBig:nth-child(8)  { left: 77vw; animation: cover2 linear 4s infinite; }
+ .digitBig:nth-child(9)  { left: 89vw; animation: cover3 linear 6s infinite; }
+ .digitBig:nth-child(10)  { left: 93vw; animation: cover4 linear 2s infinite; }
